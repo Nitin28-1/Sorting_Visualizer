@@ -1,0 +1,105 @@
+.visuals {
+    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    width: 100%;
+
+  }
+  
+  .visualizer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .legend {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 2px 5px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .legend__lable {
+    height: 5px;
+    width: 20px;
+    background-color: black;
+    margin-right: 3px;
+  }
+  
+  .visual__items {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+  
+    padding-right: 10px;
+    margin-bottom: 60px;
+    border-bottom: 3px solid black;
+    position: relative;
+  }
+  
+  
+  .visual__item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  
+  .visual__item > h4 {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: azure;
+  }
+  
+  .visual__btns > button {
+    width: 150px;
+    background-color: rgb(0, 149, 199);
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .visual
+  {
+
+    border-top-left-radius: 10px;  /* Top left corner */
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+  }
+
+  @media only screen and (max-width : 511px) {
+
+    .visual__btns
+    {
+      display: flex;
+    }
+  }
+  @media only screen and (max-width : 435px) {
+
+    .visual__btns
+    {
+      display: flex;
+      width: 290px;
+    }
+  }
